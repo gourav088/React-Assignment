@@ -3,7 +3,7 @@ import "./form.css";
 class MyForm extends Component {
   state = {
     name: "",
-    pass: "",
+    password: "",
     textArea: "",
     rangeInput: "",
     myDate: "",
@@ -22,7 +22,7 @@ class MyForm extends Component {
   };
 
   render() {
-    const { name, pass, textArea, rangeInput, myDate, choosenRadio } =
+    const { name, password, textArea, rangeInput, myDate, choosenRadio } =
       this.state;
     return (
       <>
@@ -37,11 +37,11 @@ class MyForm extends Component {
         </div>
 
         <div className="main">
-          <label labelfor="pass">Pass</label>
+          <label labelfor="password">Password</label>
           <input
             type="password"
-            value={pass}
-            name="pass"
+            value={password}
+            name="password"
             onChange={this.handleInputChange}
           />
         </div>
@@ -94,7 +94,7 @@ class MyForm extends Component {
 
         <div>
           <p className="para">Name:{name}</p>
-          <p className="para">Pass:{pass}</p>
+          <p className="para">password:{password}</p>
           <p className="para">Text-Area:{textArea}</p>
           <p className="para">Range Value is:{rangeInput}</p>
           <p className="para">Choosen Date:{myDate}</p>
