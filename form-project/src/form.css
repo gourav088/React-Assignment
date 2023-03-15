@@ -1,0 +1,46 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+span {
+  margin-left: 10px;
+  font-size: 16px;
+  color: gray;
+}
+.para{
+
+    background-color: aliceblue;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 200px 2px 200px;
+    border: 1px solid black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 200px 2px 200px;
+}
+#root{
+    width: 842px;
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid;
+}
